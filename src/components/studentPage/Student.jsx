@@ -1,0 +1,9 @@
+import "./student.css";
+
+export default function Student(){
+    return (
+        <div className="studentPage_container">
+            student page Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi quia eaque nihil, quisquam vero veniam recusandae beatae dolorem quae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium porro nemo cupiditate necessitatibus laudantium quisquam unde ducimus nostrum inventore delectus sed soluta vel voluptatum vero quasi nesciunt in ad quidem, fugiat perspiciatis eius harum? Molestiae quas et iure ipsa, aperiam voluptates vitae quod sapiente quos? Vel expedita sit iure libero eaque autem velit porro maiores. Nesciunt a ducimus dignissimos eveniet perferendis autem soluta cum distinctio laboriosam suscipit unde odio ea omnis, id rem dolor aliquam fugit vitae odit accusantium delectus necessitatibus! Veritatis cupiditate, iusto omnis aliquam culpa vitae at, quo voluptatibus consectetur voluptas veniam. Voluptatum architecto temporibus aspernatur fugiat laudantium harum unde deserunt dolorum minus! Sit velit fugit sint id, laboriosam voluptas hic atque pariatur reiciendis odio repudiandae corporis assumenda minus perferendis. Consectetur illo aut enim aliquam, nulla quas ducimus minima odit voluptates debitis nostrum laboriosam excepturi. Magnam ea esse fugit quia laborum aliquam hic nobis ab enim illum exercitationem, soluta delectus unde praesentium! Suscipit corrupti similique officiis assumenda beatae ducimus veritatis, enim odit ipsam, blanditiis explicabo fugit corporis dolorum cum consequuntur, labore dolores praesentium vitae ad minus nobis laboriosam quidem sequi. Neque, laboriosam eum vel numquam atque cum et assumenda perspiciatis, hic maiores aliquam asperiores eveniet reprehenderit quibusdam officia!
+        </div>
+    );
+}
