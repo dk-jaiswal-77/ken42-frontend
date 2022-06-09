@@ -1,5 +1,6 @@
 // hooks 
-import { useRef } from "react";
+import { useState } from "react";
+import {useNavigate} from "react-router-dom";
 
 // react-icons
 import {BsFillCalendarEventFill} from "react-icons/bs";
@@ -17,7 +18,9 @@ export default function Navbar(){
 
     const user = JSON.parse(localStorage.getItem("ken42_user"));
 
-    const selected_option = useRef("navbar_option_students");
+    const [selected, setSelected] = useState("student");    
+
+    const navigate = useNavigate();
 
     return (
         <nav className="navbar">
@@ -27,17 +30,26 @@ export default function Navbar(){
             </div>
 
             <div className="navbar_mid">
-                <div className="navbar_option selected_option" id="navbar_option_students">
+                <div className={(selected === "student") ? "navbar_option selected_option" : "navbar_option"} id="student" onClick={() => {
+                    setSelected("student");
+                    navigate("/dashboard/student");
+                }} >
                     < BsPeopleFill className="navbar_option_icon" />
                     <span>Students</span>
                 </div>
 
-                <div className="navbar_option" id="navbar_option_events">
+                <div className={(selected === "event") ? "navbar_option selected_option" : "navbar_option"} id="event" onClick={() => {
+                    setSelected("event");
+                    navigate("/dashboard/event");
+                }} >
                     < BsFillCalendarEventFill className="navbar_option_icon" />
                     <span>Events</span>
                 </div>
 
-                <div className="navbar_option" id="navbar_option_charts">
+                <div className={(selected === "chart") ? "navbar_option selected_option" : "navbar_option"} id="chart" onClick={() => {
+                    setSelected("chart");
+                    navigate("/dashboard/chart");
+                }} >
                     < AiFillPieChart className="navbar_option_icon" />
                     <span>Term-wise Charts</span>
                 </div>

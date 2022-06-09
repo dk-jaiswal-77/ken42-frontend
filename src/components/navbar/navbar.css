@@ -3,7 +3,9 @@
     display: flex;
     gap: 2rem;
     padding: 0rem 2rem;
-    box-shadow: 0px 1px 5px 0px rgba(00, 00, 00, 0.2);
+    box-shadow: 0px 1.5px 7px 0px rgba(00, 00, 00, 0.2);
+    background: white;
+    margin-bottom: 1.5rem;
 }
 
 .navbar > *{
@@ -31,7 +33,9 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 1.3rem 0rem;
+    padding: 1.5rem 0rem;
+    text-decoration: none;
+    color: black;
 }
 
 .navbar_option:hover{

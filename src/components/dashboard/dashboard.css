@@ -1,3 +1,6 @@
-.dashboard{
+.dashboard_container{
     background: var(--primary-bg-color);
+    width: 100%;
+    min-height: 100vh;
+    max-height: max-content;
 }

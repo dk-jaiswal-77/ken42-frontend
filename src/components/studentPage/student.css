@@ -1,5 +1,116 @@
 .studentPage_container{
-    width: 100%;
-    height: 500px;
-    border: 1px solid red;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.studentPage_container > *{
+    background: white;
+}
+
+.search_filter_row{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1.5rem 2rem 2rem;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.search_filter_row > *{
+    /* border: 1px solid red; */
+}
+
+.student_list_title_container{
+    font-size: 1.5rem;
+    color: rgba(00, 00, 00, 0.8);
+}
+
+.search_container{
+    flex-grow: 1;
+}
+
+.search_container{
+    display: flex;
+}
+
+.search_container > select{
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+.search_container > button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.search_container > button > .search_logo{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.search_container > input{
+    border-radius: 0;
+    flex-grow: 1;
+}
+
+.filter_container{
+    display: flex;
+    gap: 1rem;
+}
+
+.student_count_container{
+    display: flex;
+    gap: 0.5rem;
+    background: #2db7f5;
+}
+
+/* -------------------------------------------------------------- */
+.single_data{
+    border: 1px solid rgba(00, 00, 00, 0.1);
+    border-top: none;
+    display: flex;
+    padding: 0rem 1.5rem;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: rgba(00, 00, 00, 0.8);
+}
+
+.list_head{
+    background: var(--primary-bg-color);
+    font-weight: 500;
+    color: rgba(00, 00, 00, 0.8);
+}
+
+.single_data > span{
+    /* border: 1px solid black;   */
+    padding: 1rem 0rem;  
+}
+
+.list_head > span{
+    padding: 0.7rem 0rem;
+}
+
+
+.single_data > span:nth-child(1){
+    /* flex-grow: 1; */
+    width: 26%;
+}
+
+.single_data > span:nth-child(2){
+    width: 18%;
+}
+
+.single_data > span:nth-child(3){
+    width: 15%;
+}
+
+.single_data > span:nth-child(4){
+    width: 15%;
+}
+
+.single_data > span:nth-child(5){
+    /* flex-grow: 1; */
+    width: 26%;
 }
